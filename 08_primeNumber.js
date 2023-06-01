@@ -6,6 +6,8 @@ function primeNum(num) {
     for (let index = 2; index < num; index++) {
       if (num % index == 0) {
         isPrime = false;
+
+        
         console.log(`Not a prime number as it is divisible by ${index}`);
         break;
       }
