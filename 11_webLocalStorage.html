@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Local Storage</title>
+  </head>
+  <body>
+    <h2>Local Storage</h2>
+    <script>
+      window.localStorage.setItem("fullName", "Amruta Tushar Thorat");
+      window.localStorage.setItem("city", "Manchar");
+      window.localStorage.setItem("pinCode", "410505");
+      window.localStorage.setItem("district", "Pune");
+      console.log("====================== getItem ====================");
+      console.log(window.localStorage.getItem("fullName"));
+      console.log(window.localStorage.getItem("city"));
+      console.log(window.localStorage.getItem("pinCode"));
+      console.log("====================== removeItem ====================");
+      window.localStorage.removeItem("city");
+    </script>
+  </body>
+</html>
