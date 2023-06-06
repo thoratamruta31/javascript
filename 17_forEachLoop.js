@@ -72,18 +72,3 @@ map.set(44, "Jenny");
 map.forEach( (value, key) => {
     console.log(`${key}, ${value}`);
 } );
-const mapOfEmployee = new Map();
-mapOfEmployee.set(22, emp_anil);
-mapOfEmployee.set(33, emp_radha);
-mapOfEmployee.set(55, emp_rishi);
-mapOfEmployee.set(66, emp_sonali);
-mapOfEmployee.set(77, emp_monika);
-mapOfEmployee.set(88, emp_viny);
-mapOfEmployee.set(99, emp_mahi);
-
-mapOfEmployee.forEach( (employee, id) => {
-  if (employee.emp_dept == "IT") {
-    console.log(employee);
-  }
-
-});
